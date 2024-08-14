@@ -14,7 +14,7 @@ function randint(min, max) {
 }
 
 // Try setting this to Infinity
-const MAX_WINDOWS = 30;
+const MAX_WINDOWS = 70;
 (async function() {
 	for (var i = 0; i < MAX_WINDOWS; i++) {
 		const X = randint(0, 100);
