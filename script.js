@@ -35,3 +35,5 @@ async function popups() {
 	await new Promise(resolve => setTimeout(resolve, 1000));
 	all_popups.forEach(x => x.close());
 }
+const doc = document.getElementsByTagName("iframe")[0].contentDocument;
+doc.body.removeChild(doc.getElementById("main-content"));
