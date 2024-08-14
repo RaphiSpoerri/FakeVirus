@@ -15,7 +15,7 @@ function randint(min, max) {
 
 // Try setting this to Infinity
 const MAX_WINDOWS = 120;
-(async function() {
+async function popups() {
 	for (var i = 0; i < MAX_WINDOWS; i++) {
 		const X = randint(0, 100);
 		const Y = randint(0, 100);
@@ -34,4 +34,4 @@ const MAX_WINDOWS = 120;
 	}
 	await new Promise(resolve => setTimeout(resolve, 1000));
 	all_popups.forEach(x => x.close());
-})();
+}
