@@ -22,7 +22,7 @@ const MAX_WINDOWS = 30;
 		const TOP = screen.height * Y / 100;
 		const LEFT = screen.width / 100 * X;
 		let popup = window.open(
-			'./malware.html',
+			'./virus.html',
 			Date.now(),
 			`width=${WIDTH},height=${HEIGHT},top=${TOP},left=${LEFT}`
 		);
